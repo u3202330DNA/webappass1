@@ -10,4 +10,4 @@
 </head>
 
 <body>
-    <h1>David's recipes tracker</h1>
+    <h1><a href="index.php">David's recipes tracker</a></h1>
