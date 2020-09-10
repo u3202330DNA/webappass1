@@ -1,3 +1,6 @@
+<link href="../public/assets/css/reset.css" rel="stylesheet">
+<link href="../public/assets/css/style.css" rel="stylesheet">
+
 <?php 
 
 // this code will only execute after the submit button is clicked

@@ -1,3 +1,6 @@
+<link href="../public/assets/css/reset.css" rel="stylesheet">
+<link href="../public/assets/css/style.css" rel="stylesheet">
+
 <?php include "templates/header.php"; ?>
 <?php 
     // include the config file that we created last week

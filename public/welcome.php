@@ -9,12 +9,17 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
 ?>
 
+<?php include "templates/header.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
+    <link href="../public/assets/css/reset.css" rel="stylesheet">
+    <link href="../public/assets/css/style.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
     <style type="text/css">
         body {
@@ -27,7 +32,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <body>
     <div class="page-header">
-        <h1>Welcome to <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>'s recipes tracker</h1>
+        <h1>Welcome <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b></h1>
     </div>
     <p>
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
@@ -42,5 +47,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </ul>
 
 </body>
+
+<?php include "templates/footer.php"; ?>
 
 </html>

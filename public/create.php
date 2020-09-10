@@ -1,3 +1,7 @@
+<link href="../public/assets/css/reset.css" rel="stylesheet">
+<link href="../public/assets/css/style.css" rel="stylesheet">
+
+
 <?php 
 
 // this code will only execute after the submit button is clicked
@@ -33,8 +37,15 @@ if (isset($_POST['submit'])) {
 	}	
 }
 ?>
+
+
+
+
 <?php include "templates/header.php"; ?>
 <h2>Add a work</h2>
+
+
+
 
 <?php if (isset($_POST['submit']) && $statement) { ?>
 <p>Work successfully added.</p>

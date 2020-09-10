@@ -4,6 +4,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 ?>
+<link href="../public/assets/css/reset.css" rel="stylesheet">
+<link href="../public/assets/css/style.css" rel="stylesheet">
 
 <?php include "templates/header.php"; ?>
 

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i|Spartan:400,700&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: 'Spartan', sans-serif;
+    color: #1A7480;
+    font-size: 16px;
+
+}
+
+/*typography*/
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 10px 0 20px 0;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 40px;
+    font-size: 60px;
+    padding: 15px 2px 15px 2px;
+    text-decoration: none;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 40px;
+    color: #1A7480;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: 3px solid #1A7480;
+    padding-bottom: 20px;
+    border-bottom-color: #8d3c1a;
+}
+
+h3 {
+    font-size: 25px;
+
+
+
+}
+
+
+.wrapper {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+body h1 a {
+    color: #1A7480;
+    text-decoration: none;
+}
+
+
+/*main body*/
+header {
+    background-color: #001122;
+    color: #1A7480;
+    font-style: oblique;
+    width: 1000px;
+    height: 200px;
+
+
+}
+
+header h1 a {
+    color: #1A7480;
+    text-decoration: none;
+
+}
+
+
+
+header h1 a:hover {
+    background-color: #001122;
+    text-decoration: underline;
+    text-decoration-color: #8d3c1a;
+
+
+}
+
+body h1 a:hover {
+    background-color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #8d3c1a;
+
+}
+
+/*this will be used instead of the wrapper*/
+/*body{*/
+/*display: grid;*/
+/*grid-template-rows: 200px 10fr 550px;*/
+/*} */
+
+
+nav {
+    background-color: #001122;
+    align-content: center;
+    width: 1000px;
+    height: 0px;
+
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+
+
+}
+
+/*button */
+nav ul li a {
+    color: #1A7480;
+    text-decoration: none;
+    background-color: #001122;
+    padding: 10px 30px;
+    letter-spacing: 7px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-right: 1px solid #8d3c1a;
+}
+
+/*background color for button*/
+nav ul li a:hover {
+    background-color: #001122;
+    text-decoration: underline;
+    text-decoration-color: #8d3c1a;
+}
+
+
+
+
+.hero {
+    min-height: 350px;
+    background-image: url(../images/images/churchill-house-4.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+main {
+    color: #a3a3a3;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Spartan', sans-serif;
+    text-align: justify;
+    letter-spacing: 4px;
+    overflow: hidden;
+
+
+}
+
+p {
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+
+
+}
+
+.column {
+    column-count: 2;
+    column-gap: 50px;
+    text-align: left;
+
+}
+
+
+
+main ul {
+    list-style: circle;
+    list-style-position: outside;
+    color: #a3a3a3;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 2px;
+    line-height: 45px;
+}
+
+/*images*/
+.leftimg {
+    width: 55%;
+    float: left;
+    padding-right: 50px;
+    padding-bottom: 50px;
+
+}
+
+.leftimg2 {
+    width: 38%;
+    float: left;
+    padding-right: 50px;
+    padding-bottom: 50px;
+
+}
+
+figure {
+    width: 49%;
+    float: right;
+    text-align: center;
+    font-size: 10px;
+    padding-left: 50px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.rightimg {
+    width: 40%;
+    float: right;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.centerimg {
+    width: 70%;
+    float: none;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.centerimg2 {
+    width: 50%;
+    float: none;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+footer {
+    background-image: url(../images/image2.jpeg) color: #000000;
+    padding-top: 300px;
+}
+
+/*responsive website*/
+
+@media screen and (max-width: 1020px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        letter-spacing: 10px;
+        font-size: 100%;
+
+    }
+
+    main ul {
+        font-size: 100%;
+    }
+
+}
+
+@media screen and (max-width: 890px) {
+
+    nav ul li {
+        display: inline;
+
+    }
+}
+
+@media screen and (max-width: 890px) {
+
+    nav ul li a {
+        padding: 1px 2px;
+        font-size: 14px;
+
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .column {
+        column-count: 1;
+
+    }
+
+    main {
+        text-align: left;
+
+    }
+
+}
