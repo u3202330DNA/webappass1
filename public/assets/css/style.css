@@ -168,13 +168,6 @@ p {
 
 }
 
-.column {
-    column-count: 2;
-    column-gap: 50px;
-    text-align: left;
-
-}
-
 
 
 main ul {
@@ -188,54 +181,6 @@ main ul {
     line-height: 45px;
 }
 
-/*images*/
-.leftimg {
-    width: 55%;
-    float: left;
-    padding-right: 50px;
-    padding-bottom: 50px;
-
-}
-
-.leftimg2 {
-    width: 38%;
-    float: left;
-    padding-right: 50px;
-    padding-bottom: 50px;
-
-}
-
-figure {
-    width: 49%;
-    float: right;
-    text-align: center;
-    font-size: 10px;
-    padding-left: 50px;
-    font-family: 'Spartan', sans-serif;
-}
-
-.rightimg {
-    width: 40%;
-    float: right;
-    padding-left: 50px;
-    padding-bottom: 50px;
-}
-
-.centerimg {
-    width: 70%;
-    float: none;
-    padding-left: 150px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-
-.centerimg2 {
-    width: 50%;
-    float: none;
-    padding-left: 150px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
 
 
 footer {
